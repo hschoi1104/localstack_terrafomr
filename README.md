@@ -16,7 +16,9 @@ terraform apply
 3. 결과 확인
 ```bash
 aws --endpoint-url=http://localhost:4566 s3api list-buckets --query "Buckets[].Name"
+aws --endpoint-url=http://localhost:4566 sqs list-queues
 or
 awslocal s3api list-buckets --query "Buckets[].Name"
+awslocal sqs list-queues
 ```
 
