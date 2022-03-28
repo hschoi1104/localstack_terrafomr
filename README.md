@@ -1,5 +1,7 @@
 # Localstack Terraform 테스트
 
+- sqs, s3 서비스 테스트 내용입니다.
+
 1. Localstack 실행(docker-compose)
 ```bash
 docker-compose up -d --build
